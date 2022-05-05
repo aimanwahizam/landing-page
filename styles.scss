@@ -1,4 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Roboto&family=Work+Sans&display=swap');
+
 /*variables*/
+$font-logo: "Roboto", sans-serif;
+$font-main: "Koulen", sans-serif;
+$font-header: "Work Sans", sans-serif;
+
 $color-primary: #082d42;
 $color-secondary: #49bdd1;
 $color-white: #f5f6fb;
@@ -23,6 +29,7 @@ nav {
         display: inline-block;
         color: $color-primary;
         font-size: 75px;
+        font-family: $font-logo;
     }
 
     img {
@@ -44,5 +51,6 @@ nav {
         text-decoration: none;
         color: $color-primary;
         font-size: 30px;
+        font-family: $font-main;
     }
 }
