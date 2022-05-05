@@ -1,5 +1,33 @@
 /*variables*/
 $color-primary: #082d42;
-$color-secondary:  #49bdd1;
-$color-white: #F5F6FB;
+$color-secondary: #49bdd1;
+$color-white: #f5f6fb;
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    height: 100px;
+    width: 100%;
+    margin: 20px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    h1 {
+        display: inline-block;
+    }
+
+    img {
+        height: 100px;
+    }
+
+    a {
+        border: 2px solid black;
+        text-decoration: none;
+    }
+}
