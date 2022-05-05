@@ -2,12 +2,13 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 nav {
   height: 100px;
   width: 100%;
-  margin: 20px;
+  margin: 50px;
   border: 2px solid red;
   display: flex;
   flex-direction: row;
@@ -16,11 +17,16 @@ nav {
 }
 nav h1 {
   display: inline-block;
+  color: #082d42;
+  font-size: 75px;
 }
 nav img {
   height: 100px;
 }
 nav a {
-  border: 2px solid black;
+  border: 2px solid #082d42;
+  border-radius: 10px;
   text-decoration: none;
+  color: #082d42;
+  font-size: 50px;
 }
