@@ -23,10 +23,18 @@ nav h1 {
 nav img {
   height: 100px;
 }
-nav a {
+nav div {
+  height: 75px;
+  width: 150px;
   border: 2px solid #082d42;
   border-radius: 10px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav a {
   text-decoration: none;
   color: #082d42;
-  font-size: 50px;
+  font-size: 30px;
 }
